@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Business Water</title>
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="imagens/logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="#">Ligue(00)00000000</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>Compre<br>Água<span>Empresa</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, sunt odit omnis atque illum excepturi facere quo qui temporibus dolore sed laborum exercitationem minus tempore possimus ea, libero sint aut!</p>
+                    <a href="">Nosso Endereço</a>
+                </div>
+                <div class="imgBox">
+                        <img src="imagens/img1.png" class="agua">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="imagens/thumb1.png" onclick="imgSlider('imagens/img1.png');changeCircleColor('#A9A9A9')"></li>
+                <li><img src="imagens/thumb2.png" onclick="imgSlider('imagens/img2.png');changeCircleColor('#00BFFF')"></li>
+                <li><img src="imagens/thumb3.png" onclick="imgSlider('imagens/img3.png');changeCircleColor('#B0E0E6')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="https://www.instagram.com/" target="_blank
+                    "><img src="imagens/instagram.png" alt=""></a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank"><img src="imagens/whatsapp.png" alt=""></a></li>
+            </ul>
+        </section>
+    
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.agua').src = anything;
+            }
+    
+            function changeCircleColor(color){
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+        </script>
+    
+        <main class="
+        assinatura">
+            <footer>
+                <p>©Create By Web Designer | <a href="https://github.com/jonessouzasilva" target="_blank">Jones Souza</a></p>
+            </footer>
+        </main>
+</head>
+<body>
