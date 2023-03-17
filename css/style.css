@@ -86,32 +86,33 @@ header ul li a{
     display: inline-block;
     margin-top: 20PX;
     padding: 8px 20px;
-    background: #070171;
-    color: #fff;
+    background: #fff;
+    color: #111;
     border-radius: 40px;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .content .imgBox
 {
-    width: 100%;
-    right: 100%;
+    width: 600px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 40px;
-    margin-top: 40px;
+    padding-right: 50px;
+    margin-top: 50px;
+    justify-content: flex-end;
 }
 
 .content .imgBox img
 {   
-    max-width: 380px;
+    max-width: 260px;
 }
 .thumb
 {
     position: absolute;
-    left: 38%;
-    bottom: 10px;
+    left: 50%;
+    bottom: 20px;
     transform: translateX(-50%);
     display: flex;
 }
@@ -129,7 +130,7 @@ header ul li a{
 }
 .thumb li img
 {
-    max-width: 100%;
+    max-width: 40px;
 }
 .sci
 {
@@ -148,9 +149,9 @@ header ul li a{
 .sci li a
 {
     display: inline-block;
-    margin: 5px 0;
-    transform: scale(0.6);
     filter: invert(1);
+    transform: scale(0.6);
+    margin: 5px 0;
 }
 .circle
 {
@@ -170,39 +171,3 @@ main.assinatura
     position: center;
     text-shadow: 1px 1px 1px black;
 }
-
-@media only screen and (max-width: 860px){
-    header{
-        padding: 20px;
-    }
-    header .logo{
-        position: relative;
-        max-width: 60px;
-    }
-    header ul{
-        display: none;
-    }
-    section {
-        padding: 20px 20px 110px;
-        flex-direction: column;
-        margin: 100px;
-    }
-    section .textBox h2{
-        font-size: 2.5rem;
-        margin-bottom: 10px;
-    }
-    section .textBox{
-        max-width: 100%;
-    }
-    section .imgBox{
-        max-width: 100%;
-        justify-content: center;
-    }
-    section .imgBox img{
-        max-width: 300px;
-    }
-    .thumb li img{
-        max-width: 50px;
-    }
-}
-    
