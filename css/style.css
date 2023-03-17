@@ -15,7 +15,8 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right, white, beige);
+    background-color: #0062be;
+    transition: 0.5s;
 }
 header
 {
@@ -46,8 +47,7 @@ header ul li
 }
 header ul li a{
     display: inline-block;
-    color: #333;
-    font-size: 20pt;
+    color: #fff;
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
@@ -67,20 +67,19 @@ header ul li a{
 }
 .content .textBox h2
 {
-    color: #333;
+    color: #fff;
     font-size: 4em;
-    line-height: 1.4em;
-    font-weight: 500;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .content .textBox h2 span
 {
-    color: #070171;
-    font-size: 1.2em;
-    font-weight: 900;
+    font-size: 2em;
 }
 .content .textBox p
 {
-    color: #333;
+    color: #fff;
 }
 .content .textBox a 
 {
@@ -171,18 +170,39 @@ main.assinatura
     position: center;
     text-shadow: 1px 1px 1px black;
 }
-@media (max-width:786px) {
-    #section{
-        padding: 30px;
+
+@media only screen and (max-width: 860px){
+    header{
+        padding: 20px;
     }
-    #section .header{
-        font-size: 35px;
-        letter-spacing: 0;
-        line-height: 50px;
+    header .logo{
+        position: relative;
+        max-width: 60px;
     }
-    .content .textBox h2 span{
-        font-size: 20px;
-        font-weight: 400;
+    header ul{
+        display: none;
+    }
+    section {
+        padding: 20px 20px 110px;
+        flex-direction: column;
+        margin: 100px;
+    }
+    section .textBox h2{
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    section .textBox{
+        max-width: 100%;
+    }
+    section .imgBox{
+        max-width: 100%;
+        justify-content: center;
+    }
+    section .imgBox img{
+        max-width: 300px;
+    }
+    .thumb li img{
+        max-width: 50px;
     }
 }
     
