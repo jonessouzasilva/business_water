@@ -218,7 +218,24 @@ header ul li a{
 .menu-container .box .stars .bx{
     color: #ebdbc8;
 }
-
+.menu-container .box h2{
+    color: #ebdbc8;
+    font-size: 1.2rem;
+}
+.menu-container .box span{
+    color: #ebdbc8;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0.2rem 0 0.5rem;
+}
+.box .btn{
+    border: 2px solid #ebdbc8;
+    color: #ebdbc8;
+}
+.box .btn:hover{
+    background: #ebdbc8;
+    color: var(--second-color);
+}
 main.assinatura
 {
     font-size: medium;
