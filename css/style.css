@@ -4,7 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color: #00a6ff;
+    --second-color: #fff;
 }
 section
 {
@@ -162,6 +170,53 @@ header ul li a{
     height: 100%;
     background: #00a6ff;
     clip-path: circle(600px at right 800px)
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--second-color);
+}
+.heading h1{
+    font-size: 2rem;
+    color: var(--second-color);
+}
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.menu-container .box{
+    flex: 1 1 10rem;
+    background: var(--main-color);
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+}
+.menu-container .box .box-img{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+}
+.menu-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.stars{
+    margin: 1rem 0 0.1rem;
+}
+.menu-container .box .stars .bx{
+    color: #ebdbc8;
 }
 
 main.assinatura
