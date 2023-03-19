@@ -236,6 +236,28 @@ header ul li a{
     background: #ebdbc8;
     color: var(--second-color);
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.novidades-img{
+    flex: 1 1 21rem;
+}
+.novidades-text{
+    flex: 1 1 21rem;
+}
+.novidades-text h2{
+    font-size: 1.2rem;
+    color: var(--second-color);
+}
+.novidades-text p{
+    color: var(--second-color);
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+
 main.assinatura
 {
     font-size: medium;
