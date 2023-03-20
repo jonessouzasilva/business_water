@@ -258,6 +258,7 @@ header ul li a{
     text-align: justify;
 }
 
+
 main.assinatura
 {
     font-size: medium;
@@ -265,6 +266,8 @@ main.assinatura
     position: center;
     text-shadow: 1px 1px 1px black;
 }
+
+
 @media (max-width: 991px){
     header{
         padding: 20px;
