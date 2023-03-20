@@ -288,7 +288,7 @@ header ul li a{
     padding: 5px;
 }
 .map iframe:hover{
-    background: var(--main-color);
+    background: var(--second-color);
 }
 
 main.assinatura
