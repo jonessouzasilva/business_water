@@ -257,7 +257,26 @@ header ul li a{
     margin: 0.5rem 0 1rem;
     text-align: justify;
 }
-
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    background: #ebdbc8;
+    gap: 1.5rem;
+}
+.home-img{
+    flex: 1 1 17rem;
+}
+.home-text{
+    flex: 1 1 17rem;
+}
+.home-text h2{
+    font-size: 1.2rem;
+    color: var(--main-color);
+}
+.home-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
 
 main.assinatura
 {
