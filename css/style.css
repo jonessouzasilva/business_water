@@ -277,6 +277,36 @@ header ul li a{
     margin: 0.5rem 0 1rem;
     text-align: justify;
 }
+
+.box .btn{
+    border: 2px solid #ebdbc8;
+    color: #ebdbc8;
+}
+.box .btn:hover{
+    background: #ebdbc8;
+    color: var(--second-color);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.sobre-img{
+    flex: 1 1 21rem;
+}
+.sobre-text{
+    flex: 1 1 21rem;
+}
+.sobre-text h2{
+    font-size: 1.2rem;
+    color: var(--second-color);
+}
+.sobre-text p{
+    color: var(--second-color);
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
 .contato{
     display: flex;
     flex-direction: column;
@@ -300,15 +330,18 @@ main.assinatura
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 1150px){
     header{
-        padding: 20px;
+        padding: 18px 7%;
     }
     header .logo{
         max-width: 60px;
     }
     header ul{
         display: none;
+    }
+    section{
+        padding: 50px 7%;
     }
     .toggle{
         position: relative;
@@ -380,5 +413,35 @@ main.assinatura
         width: 50px;
         border-top-left-radius: 5px;
         border-bottom-left-radius:5px;
+    }
+}
+
+@media (max-width: 991px){
+    header{
+        padding: 18px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 11px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    .sobre{
+        position: relative;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #0062be;
+        box-shadow: 0 4px 4px rgb(14 55 54 / 14%);
+        border-top: 2px solid var(--main-color);
+        transition: 0.2s;
     }
 }
