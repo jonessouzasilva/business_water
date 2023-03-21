@@ -383,6 +383,10 @@ main.assinatura
     }
     .menu-container .box{
         margin-top: 6rem;
+
+    }
+    .novidades-img{
+        left: -300px;
     }
     .heading h1{
         font-size: 1.5rem;
@@ -397,9 +401,12 @@ main.assinatura
     }
     .contato-map{
         padding-top: inherit;
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
     .home{
         flex-direction: column-reverse;
+    }
+    .home-img{
+        left: -300px;
     }
 }
