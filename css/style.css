@@ -444,4 +444,10 @@ main.assinatura
         border-top: 2px solid var(--main-color);
         transition: 0.2s;
     }
+    .sobre-img img{
+        width: 60%;
+    }
+    .sobre-text h2{
+        left: -300px;
+    }
 }
