@@ -445,6 +445,7 @@ main.assinatura
         transition: 0.2s;
     }
     .sobre-img img{
+        width: 100%;
         left: -300px;
     }
     .sobre-text h2{
