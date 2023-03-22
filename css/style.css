@@ -434,7 +434,7 @@ main.assinatura
     }
     .sobre{
         position: relative;
-        top: 100%;
+        top: 50%;
         left: 0;
         right: 0;
         display: flex;
